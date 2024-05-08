@@ -20,15 +20,21 @@ Get the output and end the program
 ## Program:
 ```
 #Program to find the inverse of a matrix.
-#Developed by: CHANDRU SM
-#RegisterNumber: 212223230034
+#Developed by: chandru SM
+#RegisterNumber:212223230034
+
 import numpy as np
-A= np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-inverse=np.linalg.inv(A)
-print(inverse)
+
+matrix = np.array([[6, 2, 3], [3, 1, 1],[10, 3, 4]])
+
+inverse_matrix = np.linalg.inv(matrix)
+
+print(inverse_matrix)
+
+
 ```
 ## Output:
-![Screenshot 2023-10-28 051237](https://github.com/harissunique/INVERSE-OF-A-MATRIX/assets/147139338/68e59ae1-1397-452e-a020-c49235fa368d)
+![Screenshot 2024-05-08 231342](https://github.com/Chandru0711/INVERSE-OF-A-MATRIX/assets/144979368/43d69d87-3ebd-427f-a076-ed5554d95e47)
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
